@@ -1,7 +1,6 @@
 import { SubmittableExtrinsic } from '@polkadot/api/types'
 
 export type UpdateFunction = (name: string, index: number) => string
-export type ExtrinsicFunction<T> = (arg: T) => Extrinsic
 
 export type DisplayType = null | 'boost_number' | 'number' | 'boost_percentage'
 
